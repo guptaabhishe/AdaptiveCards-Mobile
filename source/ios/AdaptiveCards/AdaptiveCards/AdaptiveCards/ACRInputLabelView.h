@@ -36,6 +36,6 @@
 
 + (void)commonSetFocus:(BOOL)shouldBecomeFirstResponder view:(UIView *)view;
 + (BOOL)commonTextUIValidate:(BOOL)isRequired hasText:(BOOL)hasText predicate:(NSPredicate *)predicate text:(NSString *)text error:(NSError *__autoreleasing *)error;
-- (NSObject<ACRIBaseInputHandler>)getInputHandler;
+- (NSObject<ACRIBaseInputHandler> *)getInputHandler;
 
 @end
